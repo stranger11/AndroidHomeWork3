@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Викторина</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Приветсвуем! Нажмите кнопку, чтобы начать викторину!</string>
+    <string name="button_yes">Да</string>
+    <string name="button_no">Нет</string>
+    <string name="begin">Начать</string>
+    <string name="result">Посмотреть результат </string>
+    <string name="nabor">Колличество правильных ответов:</string>
+    <string name="repeat">Попробовать снова</string>
+    <string-array name="questions">
+        <item>Самая короткая война в истории длилась 38 минут</item>
+        <item>Россия занимает первое место в мире по колличеству заключенных</item>
+        <item>Если молния попадет в самолет, то он упадет на землю</item>
+        <item>У осьминога четыре сердца</item>
+        <item>Логотип компании Chupa Chups нарисовал Сальвадор Дали</item>
+        <item>Киллиманджаро самая высокая гора в мире</item>
+        <item>Если Солнце потухнет, люди заметят это только через два часа</item>
+        <item>Правда ли, что черепахи плачут?</item>
+        <item>Правда ли, что первые машины были двухколесными?</item>
+        <item>Правда ли, что у человека есть среднее ухо?</item>
+    </string-array>
+</resources>

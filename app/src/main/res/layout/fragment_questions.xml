@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsFragment"
+    android:orientation="vertical"
+    android:background="@color/background_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/questions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="@string/button_yes"
+            android:textSize="50sp"
+            app:backgroundTint="@color/buttons_color"
+            android:layout_marginEnd="50dp" />
+
+        <Button
+            android:id="@+id/button_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background_normal"
+            android:text="@string/button_no"
+            android:textSize="50sp"
+            app:backgroundTint="@color/buttons_color" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background_normal"
+        android:text="@string/result"
+        android:textSize="30sp"
+        android:visibility="gone"
+        app:backgroundTint="@color/buttons_color" />
+
+</LinearLayout>
